@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Group-23 (HIT 226)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="promo-text">Your online studymate.</div>
+            <div class="header-content">
+                <a href="index.html" class="logo-container">
+                    <img src="logo.png" alt="Code Craft Academy Logo" id="siteLogo">
+                </a>
+                <h1 class="store-title"> Code Craft Academy</h1>
+                <form id="searchForm" action="/search" method="get" class="search-form" onsubmit="handleSearchSubmit(event)">
+                    <input type="text" id="searchQuery" name="searchQuery" placeholder="Search...">
+                    <button type="submit"><span class="search-icon">Search</span></button>
+                </form>                
+                <nav class="header-nav">
+                    <ul>
+                        <li><a href="account.html">User Registration/Login</a></li>
+                        <li><a href="feedback.html">Feedback and Support</a></li>
+                        <li><a href="enrollment.html">Enrollment</a></li>
+                    </ul>
+                </div>
+                </nav>
+                <nav class="main-navigation">
+                    <ul>
+                        <li><a href="index.html">Dashboard</a></li>
+                        <!-- <li><a href="course.html">Course Catalogue</a></li> -->
+                        <li><a href="timetable.html">Course Schedule</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+<body>
+
+<section class="special-collection">
+    <h2> Course Collections</h2>
+    <div class="course-grid">
+
+        <div class="course-card">
+            <img src="web.webp" alt="course-card img">
+            <div class="course-info">
+                <h3 class="course-name">Web Development Fundamentals</h3>
+                <p>Introduction to HTML, CSS, and JavaScript.</p>
+                <p>Building responsive web pages.</p>
+                <p>Web accessibility best practices.</p>
+             </div>
+                <div><button onclick="window.location.href='web.html';">View Course</button></div>
+            </div>
+        <div class="course-card">
+            <img src="front.jpg" alt="course-card img">
+            <div class="course-info">
+                <h3 class="course-name">Frontend Development</h3>
+                <p>Advanced CSS techniques.</p>
+                <p>JavaScript frameworks.</p>
+                <p>Frontend tooling and workflow.</p>
+             </div>
+                <div><button onclick="window.location.href='frontend.html';">View Course</button></div>
+            </div>
+            <div class="course-card">
+                <img src="back.jpg" alt="course-card img">
+                <div class="course-info">
+                    <h3 class="course-name">Backend Development</h3>
+                    <p>Server-side scripting languages.</p>
+                    <p>Database management.</p>
+                    <p>Restful API development.</p>
+                 </div>
+                    <div><button onclick="window.location.href='backend.html';">View Course</button></div>
+                </div>
+                <div class="course-card">
+                    <img src="mobile.webp" alt="course-card img">
+                    <div class="course-info">
+                        <h3 class="course-name">Mobile App Development</h3>
+                        <p>Native app development.</p>
+                        <p>Cross-platform frameworks.</p>
+                        <p>Mobile UI/UX design principles.</p>
+                     </div>
+                        <div><button onclick="window.location.href='mobile.html';">View Course</button></div>
+                    </div>
+                    <div class="course-card">
+                        <img src="data.webp" alt="course-card img">
+                        <div class="course-info">
+                            <h3 class="course-name">Data Science and Analytics</h3>
+                            <p>Data visualisation.</p>
+                            <p>Statistical analysis and modelling.</p>
+                            <p>Machine learning fundamentals.</p>
+                         </div>
+                            <div><button onclick="window.location.href='data.html';">View Course</button></div>
+                        </div>
+                        <div class="course-card">
+                            <img src="cyber.jpg" alt="course-card img">
+                            <div class="course-info">
+                                <h3 class="course-name">Cyber Security</h3>
+                                <p>Network security principles..</p>
+                                <p>Ethical hacking techniques.</p>
+                                <p>Secure coding practices.</p>
+                             </div>
+                                <div><button onclick="window.location.href='cyber.html';">View Course</button></div>
+                            </div>
+                            <div class="course-card">
+                                <img src="cloud.jpg" alt="course-card img">
+                                <div class="course-info">
+                                    <h3 class="course-name">Cloud Computing</h3>
+                                    <p>Introduction to cloud platforms (AWS, Azure, Google Cloud).</p>
+                                    <p>Infrastructure as code (Terraform, CloudFormation).</p>
+                                    <p>Devops practices for cloud deployments.</p>
+                                 </div>
+                                    <div><button onclick="window.location.href='cloud.html';">View Course</button></div>
+                                </div>
+        </div>
+</div>
+</body>
+<script src="course.js"></script>
+<footer>
+    <div class="footer-container">
+        <img src="logo.png" alt="Footer Logo" class="footer-logo">
+        <p> Code Craft Academy.</p>
+    </div>
+</footer>
+</html>
+    

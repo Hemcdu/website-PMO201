@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Group-23 (HIT 226)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="promo-text">Your online studymate.</div>
+            <div class="header-content">
+                <a href="index.html" class="logo-container">
+                    <img src="logo.png" alt="Code Craft Academy Logo" id="siteLogo">
+                </a>
+                <h1 class="store-title"> Code Craft Academy</h1>
+                <form id="searchForm" action="/search" method="get" class="search-form" onsubmit="handleSearchSubmit(event)">
+                    <input type="text" id="searchQuery" name="searchQuery" placeholder="Search...">
+                    <button type="submit"><span class="search-icon">Search</span></button>
+                </form>                
+                <nav class="header-nav">
+                    <ul>
+                        <li><a href="account.html">User Registration/Login</a></li>
+                        <li><a href="feedback.html">Feedback and Support</a></li>
+                        <li><a href="enrollment.html">Enrollment</a></li>
+                    </ul>
+                </div>
+                </nav>
+                <nav class="main-navigation">
+                    <ul>
+                        <li><a href="index.html">Dashboard</a></li>
+                        <li><a href="course.html">Course Catalogue</a></li>
+                        <!-- <li><a href="timetable.html">Course Schedule</a></li> -->
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="back-link">
+            <a href="course.html">Back to Course Search</a>
+        </div>
+        <img src="cloud.jpg" alt="Descriptive Alt Text" class="body-image">
+        <h1>Cloud Computing</h1>
+        <div class="course-details">
+            <p><strong>Sector:</strong> Technology</p>
+            <p><strong>Discipline:</strong> Information Technology</p>
+            <p><strong>Credit Points:</strong> 10</p>
+            <p><strong>Equivalent Units:</strong> (IT402)</p>
+            <p><strong>Prerequisites:</strong> Basic understanding of networking and virtualization</p>
+            <p><strong>Incompatible:</strong> On-Premises Infrastructure Management Course</p>
+            <p><strong>Assumed Knowledge:</strong> Familiarity with operating systems and web technologies</p>
+        </div>
+        <div class="course-description">
+            <h2>Course Description</h2>
+            <p>This course introduces students to the fundamentals of cloud computing. It covers various cloud service models (IaaS, PaaS, SaaS), deployment models (public, private, hybrid), and cloud providers (e.g., AWS, Azure). Students will learn about virtualization, containerization, scalability, elasticity, and cost management in the cloud. Practical exercises include deploying applications to the cloud and managing cloud resources.</p>
+            <p>Access to a computer with internet access is required for hands-on labs.</p>
+        </div>
+        <div class="course-outcomes">
+            <h2>Course Learning Outcomes</h2>
+            <ol>
+                <li>Understand the concepts and principles of cloud computing.</li>
+                <li>Deploy and manage virtual machines and containers in the cloud.</li>
+                <li>Implement scalable and resilient cloud architectures.</li>
+                <li>Utilize cloud services for data storage, computation, and networking.</li>
+                <li>Optimize costs and performance in cloud environments.</li>
+            </ol>
+        </div>
+        <div class="assessment-overview">
+            <h2>Task Overview</h2>
+            <table>
+                <tr>
+                    <th>Tasks</th>
+                    <th>Value (of total mark)</th>
+                    <th>Related Learning Outcome/s</th>
+                </tr>
+                <tr>
+                    <td>Lab Exercises</td>
+                    <td>30%</td>
+                    <td>2,3,4</td>
+                </tr>
+                <tr>
+                    <td>Cloud Deployment Project</td>
+                    <td>40%</td>
+                    <td>1,2,3,4</td>
+                </tr>
+                <tr>
+                    <td>Research Paper on Cloud Service Provider</td>
+                    <td>30%</td>
+                    <td>1,4,5</td>
+                </tr>
+            </table>
+        </div>
+        <div class="course-availability">
+            <h2>Course Availability</h2>
+            <table>
+                <tr>
+                    <th>Year</th>
+                    <th>Semester</th>
+                    <th>Att Mode</th>
+                    <th>Location</th>
+                    <th>Learning Method</th>
+                    <th>Timetable*</th>
+                </tr>
+                <tr>
+                    <td>2024</td>
+                    <td>Semester 1</td>
+                    <td>External</td>
+                    <td>Online</td>
+                    <td>Online</td>
+                    <td><a href="timetable.html">Timetable</a></td>
+                </tr>
+                <tr>
+                    <td>2024</td>
+                    <td>Semester 2</td>
+                    <td>External</td>
+                    <td>Online</td>
+                    <td>Online</td>
+                    <td><a href="timetable.html">Timetable</a></td>
+                </tr>
+            </table>
+            <p>* Timetable will open in a new tab or window; ensure pop-ups are enabled for this site.</p>
+        </div>
+        <h2>If you want to enroll in this course, then click the 'Enroll' button below:</h2>
+        <button onclick="window.location.href='enrollment.html';">Enroll</button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+<footer>
+    <div class="footer-container">
+        <img src="logo.png" alt="Footer Logo" class="footer-logo">
+        <p> Code Craft Academy. </p>
+    </div>
+</footer>
+</html>

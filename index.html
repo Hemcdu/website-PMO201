@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Group-23 (HIT 226)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="promo-text">Your online studymate.</div>
+            <div class="header-content">
+                <a href="index.html" class="logo-container">
+                    <img src="logo.png" alt="Code Craft Academy Logo" id="siteLogo">
+                </a>
+                <h1 class="store-title"> Code Craft Academy</h1>
+                <form id="searchForm" action="/search" method="get" class="search-form" onsubmit="handleSearchSubmit(event)">
+                    <input type="text" id="searchQuery" name="searchQuery" placeholder="Search...">
+                    <button type="submit"><span class="search-icon">Search</span></button>
+                </form>                
+                <nav class="header-nav">
+                    <ul>
+                        <li><a href="account.html">User Registration/Login</a></li>
+                        <li><a href="feedback.html">Feedback and Support</a></li>
+                        <li><a href="enrollment.html">Enrollment</a></li>
+                    </ul>
+                </div>
+                </nav>
+                <nav class="main-navigation">
+                    <ul>
+                        <li><a href="index.html">Dashboard</a></li>
+                        <li><a href="course.html">Course Catalogue</a></li>
+                        <li><a href="timetable.html">Course Schedule</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+    <div class="intro">
+        <img src="home.avif" alt="Descriptive Alt Text" class="body-image">
+        <div class="image-description">
+            <h1> Official Code Craft Academy </h1>
+            <p> Core Craft Academy is your learning platform for honing your artistic talents and mastering new crafts. We offer a comprehensive library of online courses designed to empower learners of all skill levels.  Whether you're a complete beginner or a seasoned hobbyist, we have something for everyone. </p>
+        </div>
+    <section class="intro">
+        <h1>Dive into a World of Creative Possibilities!!!</h1>
+        <p>Our expansive course catalog encompasses a wide range of creative disciplines, including:</p>
+        
+        <div class="course-grid">
+            <div class="course-card">
+                <img src="web.webp" alt="course-card img">
+                <div class="course-info">
+                    <h3 class="product-name">Web Development Fundamentals</h3>
+                    <div><button onclick="window.location.href='web.html';">View Course</button></div>
+                </div>
+            </div>
+            <div class="course-card">
+                <img src="cyber.jpg" alt="course-card img">
+                <div class="course-info">
+                    <h3 class="product-name">Cyber Security</h3>
+                    <div><button onclick="window.location.href='cyber.html';">View Course</button></div>
+                </div>
+            </div>
+            <div class="course-card">
+                <img src="cloud.jpg" alt="course-card img">
+                <div class="course-info">
+                    <h3 class="product-name">Cloud Computing</h3>
+                    <div><button onclick="window.location.href='cloud.html';">View Course</button></div>
+                </div>
+            </div>
+        </div>
+        <h2>Flexible Learning at Your Fingertips</h2>
+        <ul>
+          <p>Core Craft Academy offers the ultimate in learning flexibility.  Our courses are available on-demand, allowing you to learn at your own pace and on your own schedule.  With our user-friendly platform, you can access video lessons, downloadable resources, and interactive exercises from any device, anywhere in the world.</p>
+        </ul>
+        <h2>Join our Thriving Community of Makers</h2>
+        <p>At Core Craft Academy, you're not alone on your creative journey.  Our online community provides a space to connect with fellow learners, share your work, get feedback, and be inspired by others.</p>
+        
+        <h2>Ready to unleash your inner artist?  Sign up for your free trial today and start exploring your creative potential at Core Craft Academy!</h2>
+        <a href="account.html">**Join our Academy**</a>
+      </section>
+    </div>
+</body>
+<script src="index.js"></script>
+<footer>
+    <div class="footer-container">
+        <img src="logo.png" alt="Footer Logo" class="footer-logo">
+        <p> Code Craft Academy.</p>
+    </div>
+</footer>
+</html>

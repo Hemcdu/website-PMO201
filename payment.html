@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Group-23 (HIT 226)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="promo-text">Your online studymate.</div>
+            <div class="header-content">
+                <a href="index.html" class="logo-container">
+                    <img src="logo.png" alt="Code Craft Academy Logo" id="siteLogo">
+                </a>
+                <h1 class="store-title"> Code Craft Academy</h1>
+                <form id="searchForm" action="/search" method="get" class="search-form" onsubmit="handleSearchSubmit(event)">
+                    <input type="text" id="searchQuery" name="searchQuery" placeholder="Search...">
+                    <button type="submit"><span class="search-icon">Search</span></button>
+                </form>                
+                <nav class="header-nav">
+                    <ul>
+                        <li><a href="account.html">User Registration/Login</a></li>
+                        <li><a href="feedback.html">Feedback and Support</a></li>
+                        <li><a href="enrollment.html">Enrollment</a></li>
+                    </ul>
+                </div>
+                </nav>
+                <nav class="main-navigation">
+                    <ul>
+                        <li><a href="index.html">Dashboard</a></li>
+                        <!-- <li><a href="course.html">Course Catalogue</a></li> -->
+                        <li><a href="timetable.html">Course Schedule</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+    <section class="checkout">
+        <h1>Checkout</h1>
+        <div class="checkout-steps">
+            <ul>
+                <li><a href="checkout.html">Complete your details</a></li>
+                <li><a href="payment.html">Payment</a></li>
+            </ul>
+        </div>
+        <div class="checkout-form">
+            <h2>Payment details</h2>
+            <form id="payment-form">
+                <label for="card-number">Bank Card Number:</label>
+                <input type="text" id="card-number" name="card_number" required>
+
+                <label for="exp-date">Expiration Date:</label>
+                <input type="text" id="exp-date" name="exp_date" placeholder="MM/YYYY" required>
+
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <script src="payment.js"></script>
+        <footer>
+            <div class="footer-container">
+                <img src="logo.png" alt="Footer Logo" class="footer-logo">
+                <p> Code Craft Academy. </p>
+            </div>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Group-23 (HIT 226)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="promo-text">Your online studymate.</div>
+            <div class="header-content">
+                <a href="index.html" class="logo-container">
+                    <img src="logo.png" alt="Code Craft Academy Logo" id="siteLogo">
+                </a>
+                <h1 class="store-title"> Code Craft Academy</h1>
+                <form id="searchForm" action="/search" method="get" class="search-form" onsubmit="handleSearchSubmit(event)">
+                    <input type="text" id="searchQuery" name="searchQuery" placeholder="Search...">
+                    <button type="submit"><span class="search-icon">Search</span></button>
+                </form>                
+                <nav class="header-nav">
+                    <ul>
+                        <li><a href="account.html">User Registration/Login</a></li>
+                        <li><a href="feedback.html">Feedback and Support</a></li>
+                        <li><a href="enrollment.html">Enrollment</a></li>
+                    </ul>
+                </div>
+                </nav>
+                <nav class="main-navigation">
+                    <ul>
+                        <li><a href="index.html">Dashboard</a></li>
+                        <li><a href="course.html">Course Catalogue</a></li>
+                        <li><a href="timetable.html">Course Schedule</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+<body>
+    <div class="account-page">
+        <div class="breadcrumb">
+            <a href="index.html">Home</a> / My account
+        </div>
+
+        <!-- Account Page Content -->
+        <h2>Join us!</h2>
+
+        <div class="account-container">
+            <!-- Login Section -->
+            <div class="login-section">
+                <h3>Login</h3>
+                <form id="loginForm">
+                    <label for="username">Username or email address *</label>
+                    <input type="text" id="username" name="username" required>
+
+                    <label for="password">Password *</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <div class="remember-me">
+                        <input type="checkbox" id="rememberMe" name="rememberMe">
+                        <label for="rememberMe">Remember me</label>
+                    </div>
+                    <button type="submit" class="login-btn">LOG IN</button>
+                    <a href="" class="password-reset">Forgot your password?</a>
+                </form>
+            </div>
+
+            <!-- Register Section -->
+            <div class="register-section">
+                <h3>Register</h3>
+                <form id="registerForm">
+                    <label for="email">Email address *</label>
+                    <input type="email" id="email" name="email" required>
+                    <p>A link to set a new password will be sent to your email address.</p>
+                    <button type="submit" class="login-btn">SIGN IN</button>
+                    <script src="account.js"></script>
+</form>
+</div>
+</div>
+</div>
+</body>
+</body>
+<footer>
+    <div class="footer-container">
+        <img src="logo.png" alt="Footer Logo" class="footer-logo">
+        <p> Code Craft Academy.</p>
+    </div>
+</footer>
+</html>

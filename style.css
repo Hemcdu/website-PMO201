@@ -1,0 +1,673 @@
+/* For Top Bar Section */
+.top-bar {
+    background-color: #ffffff; /* or any other color you prefer */
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.promo-text {
+    text-align: center;
+    background-color: #000; /* or any other color you prefer */
+    padding: 5px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.store-title {
+    color: rgb(0, 0, 0);
+    margin-left: 10px; /* adjust the space as needed */
+}
+
+#siteLogo {
+    height: auto;
+    size-adjust: 200px;
+    width: 120px; /* Adjust to your logo's actual width */
+}
+
+.search-form {
+    display: flex;
+    margin: 0 20px;
+}
+
+#searchForm input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#searchForm button {
+    padding: 8px 15px;
+    background-color: #4CAF50; /* or any other color you prefer */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.header-nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.header-nav li {
+    padding: 0 15px;
+}
+
+.header-nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.header-nav a:hover {
+    background-color: #555;
+}
+.about-section {
+    background-color: #fff;
+    padding: 2em;
+    max-width: 800px;
+    margin: 2em auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.about-section h1, .about-section h2 {
+    color: #333;
+    text-align: center;
+}
+
+.about-section h1 {
+    margin-bottom: 1em;
+}
+
+.about-section p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+.about-section h2 {
+    margin-top: 1.5em;
+}
+
+.about-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 1em;
+}
+
+.about-section ul li {
+    margin-bottom: 0.5em;
+}
+
+
+/* Fro Main-Navigation Part*/
+.main-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center the navigation menu */
+}
+
+.main-navigation li {
+    padding: 0 10px;
+}
+
+.main-navigation a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+/* Add some hover effect for the links */
+.main-navigation a:hover {
+    color: #017cff;
+}
+
+
+/* For Whole Part */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: white;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+/*For Site Logo*/
+#siteLogo {
+    height: 100px; /* Adjust based on your logo's size */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 0px; /* Space between logo and site title or other content */
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Keep other styles you already have */
+}
+
+/*For My Account.html*/
+For My Account
+body {
+    font-family: Arial, sans-serif;
+}
+
+.account-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.breadcrumb {
+    margin-bottom: 20px;
+}
+
+.breadcrumb a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+h2 {
+    color: #333;
+}
+
+.account-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-section,
+.register-section {
+    width: 48%; /* Adjust the width as necessary */
+}
+
+h3 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.remember-me input {
+    margin-right: 5px;
+}
+
+.login-btn,
+.register-btn {
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login-btn:hover,
+.register-btn:hover {
+    background-color: #4cae4c;
+}
+
+.password-reset {
+    display: block;
+    margin-top: 10px;
+    color: #0275d8;
+    text-decoration: none;
+}
+
+.password-reset:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Add any additional styling you want for the footer */
+
+/*For Home page*/
+.container {
+    width: 100%; /* Full width of the viewport */
+    margin: 0; /* No margin */
+    padding: 0; /* No padding */
+    overflow: hidden; /* Prevents horizontal scrollbar if the image is too wide */
+}
+
+.body-image {
+    width: 100%; /* Makes the image full width */
+    height: auto; /* Preserves aspect ratio */
+    display: block; /* Corrects the default inline behavior */
+}
+.image-description p {
+    margin-top: 10px; /* Add some space between the image and the text */
+    font-size: 16px; /* Set the font size */
+    color: #333; /* Set the text color */
+    line-height: 1.6; /* Makes it easier to read */
+    text-align: justify; /* Aligns the text for better readability */
+    padding: 0 15px; /* Add padding on the sides if needed */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .intro {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .intro h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .intro p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  .intro h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .intro ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .intro li {
+    margin-bottom: 5px;
+  }
+  
+  .intro a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f05940; /* Adjust background color as desired */
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .intro a:hover {
+    background-color: #d74a2e; /* Adjust hover color as desired */
+  }
+  
+  .intro p.ps {
+    font-size: 0.8em;
+    margin-top: 20px;
+  }
+  
+  .special-collection {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f8f8f8;
+}
+
+/*For Course */
+.course-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.course-card {
+    width: 300px; /* Fixed width, adjust as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.course-card img {
+    width: 100%;
+    display: inline-block;
+    padding-top: 0%;
+}
+
+.course-info {
+    padding: 10px;
+    padding-inline-start: 0%;
+}
+
+.course-name {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.course-sizes {
+    margin: 10px 0;
+}
+
+.size {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 2px 5px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.size:hover {
+    background-color: #f0f0f0;
+}
+.size.selected {
+    border-color: #000; /* Or any highlight color */
+}
+
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.error {
+    color: red;
+    margin: 5px 0;
+}
+  /*For Contact Us */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .contact h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  .contact h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact li {
+    margin-bottom: 10px;
+  }
+  
+  .contact li i {
+    margin-right: 10px;
+    color: #007bff; /* Adjust icon color as desired */
+  }
+  
+  .contact form {
+    margin-top: 20px;
+  }
+  
+  .contact form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact form input,
+  .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .contact form button {
+    background-color: #007bff; /* Adjust button color as desired */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact form button:hover {
+    background-color: #0069d9; /* Adjust button hover color as desired */
+  }
+  
+  .contact .social-media {
+    margin-top: 20px;
+  }
+  /*For checkout*/
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .checkout {
+    padding: 50px;
+  }
+  
+  .checkout h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .checkout-steps {
+    margin-bottom: 20px;
+  }
+  
+  .checkout-steps ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .checkout-steps li {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  
+  .checkout-steps li.active {
+    color: #007bff; /* Adjust active step color as desired */
+  }
+  
+  .checkout-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .checkout-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .checkout-form input,
+  .checkout-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .checkout-form button {
+    background-color: #007bff; /* Adjust button color as desired */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .checkout-form button:hover {
+    background-color: #0069d9; /* Adjust button hover color as desired */
+  }
+
+  /* For Course Description*/
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.back-link a {
+    text-decoration: none;
+    color: #0066cc;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.course-details p, .course-description p, .course-outcomes ol, .assessment-overview table, .course-availability table {
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.course-outcomes ol {
+    list-style: decimal inside;
+}
+
+.assessment-overview table, .course-availability table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.assessment-overview th, .assessment-overview td, .course-availability th, .course-availability td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.assessment-overview th, .course-availability th {
+    background-color: #f9f9f9;
+}
+
+
+/*For Footer section*/
+/* Footer styles */
+footer {
+    background-color: #333; /* or any color you prefer */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; /* This centers the content horizontally */
+    align-items: center; /* This centers the content vertically */
+}
+
+.footer-logo {
+    height: 50px; /* or the height you prefer */
+    width: auto; /* to maintain aspect ratio */
+}

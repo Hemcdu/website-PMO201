@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Group-23 (HIT 226)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="promo-text">Your online studymate.</div>
+            <div class="header-content">
+                <a href="index.html" class="logo-container">
+                    <img src="logo.png" alt="Code Craft Academy Logo" id="siteLogo">
+                </a>
+                <h1 class="store-title"> Code Craft Academy</h1>
+                <form id="searchForm" action="/search" method="get" class="search-form" onsubmit="handleSearchSubmit(event)">
+                    <input type="text" id="searchQuery" name="searchQuery" placeholder="Search...">
+                    <button type="submit"><span class="search-icon">Search</span></button>
+                </form>                
+                <nav class="header-nav">
+                    <ul>
+                        <li><a href="account.html">User Registration/Login</a></li>
+                        <li><a href="feedback.html">Feedback and Support</a></li>
+                        <li><a href="enrollment.html">Enrollment</a></li>
+                    </ul>
+                </div>
+                </nav>
+                <nav class="main-navigation">
+                    <ul>
+                        <li><a href="index.html">Dashboard</a></li>
+                        <!-- <li><a href="course.html">Course Catalogue</a></li> -->
+                        <li><a href="timetable.html">Course Schedule</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="back-link">
+            <a href="course.html">Back to Course Search</a>
+        </div>
+        <img src="cyber.jpg" alt="Descriptive Alt Text" class="body-image">
+        <h1>Cyber Security</h1>
+        <div class="course-details">
+            <p><strong>Sector:</strong> Higher Education</p>
+            <p><strong>Discipline:</strong> Information Technology</p>
+            <p><strong>Credit Points:</strong> 10</p>
+            <p><strong>Equivalent Units:</strong> (BIS243)</p>
+            <p><strong>Prerequisites:</strong> NA</p>
+            <p><strong>Incompatible:</strong> NA</p>
+            <p><strong>Assumed Knowledge:</strong> HIT274</p>
+        </div>
+        <div class="course-description">
+            <h2>Course Description</h2>
+            <p>This course gives an overview of securing the organisations business assets based on risk management approach. Students will develop an understanding about the risks and defense mechanisms for network, application, physical, and wireless security. Students will gain insight into the fundamental concepts of modern cryptography and its applications in cybersecurity. Foot printing, enumeration and social engineering aspects are also covered. Wireless networks, desktop and operating system vulnerabilities, Internet of Things security are covered. Students will gain an understanding of the steps and process of network defense.</p>
+            <p>Access to highspeed broadband is highly recommended.</p>
+        </div>
+        <div class="course-outcomes">
+            <h2>Course Learning Outcomes</h2>
+            <ol>
+                <li>Plan for organisations information security through policies, technologies and risk management.</li>
+                <li>Evaluate Operating Systems and network level vulnerabilities and formulate appropriate countermeasures.</li>
+                <li>Evaluate application development vulnerabilities and recommend appropriate countermeasures.</li>
+                <li>Evaluate the effectiveness of Disaster Recovery techniques to safeguard information assets.</li>
+                <li>Apply effective communication methods to convey ideas and principles.</li>
+            </ol>
+        </div>
+        <div class="assessment-overview">
+            <h2>Task Overview</h2>
+            <table>
+                <tr>
+                    <th>Tasks</th>
+                    <th>Value (of total mark)</th>
+                    <th>Related Learning Outcome/s</th>
+                </tr>
+                <tr>
+                    <td>Short research report of ~600 words on current topics on security risk management, policies, and vulnerability management.</td>
+                    <td>10%</td>
+                    <td>1,2,5</td>
+                </tr>
+                <tr>
+                    <td>Group Presentation slides (15 minutes) and notes (1000 words) on cutting-edge technologies and cybersecurity.</td>
+                    <td>50%</td>
+                    <td>3,4,5</td>
+                </tr>
+                <tr>
+                    <td>Final examination (2 hours)</td>
+                    <td>40%</td>
+                    <td>1,2,3,4,5</td>
+                </tr>
+            </table>
+        </div>
+        <div class="course-availability">
+            <h2>Course Availability</h2>
+            <table>
+                <tr>
+                    <th>Year</th>
+                    <th>Semester</th>
+                    <th>Att Mode</th>
+                    <th>Location</th>
+                    <th>Learning Method</th>
+                    <th>Timetable*</th>
+                </tr>
+                <tr>
+                    <td>2024</td>
+                    <td>Semester 1</td>
+                    <td>Internal/External</td>
+                    <td>Online</td>
+                    <td>Online</td>
+                    <td><a href="timetable.html">Timetable</a></td>
+                </tr>
+                <tr>
+                    <td>2024</td>
+                    <td>Semester 2</td>
+                    <td>Internal/External</td>
+                    <td>Online</td>
+                    <td>Online</td>
+                    <td><a href="timetable.html">Timetable</a></td>
+                </tr>
+            </table>
+            <p>* Timetable will be displayed in new tab or window depending on your browser's configuration; ensure Pop-ups are allowed for this site to view the timetable.</p>
+        </div>
+        <h2>If you want to enroll in this course, then click the 'Enroll' button below:</h2>
+        <button onclick="window.location.href='enrollment.html';">Enroll</button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+<footer>
+    <div class="footer-container">
+        <img src="logo.png" alt="Footer Logo" class="footer-logo">
+        <p> Code Craft Academy. </p>
+    </div>
+</footer>
+</html>

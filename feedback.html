@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Group-23 (HIT 226)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="promo-text">Your online studymate.</div>
+            <div class="header-content">
+                <a href="index.html" class="logo-container">
+                    <img src="logo.png" alt="Code Craft Academy Logo" id="siteLogo">
+                </a>
+                <h1 class="store-title"> Code Craft Academy</h1>
+                <form id="searchForm" action="/search" method="get" class="search-form" onsubmit="handleSearchSubmit(event)">
+                    <input type="text" id="searchQuery" name="searchQuery" placeholder="Search...">
+                    <button type="submit"><span class="search-icon">Search</span></button>
+                </form>                
+                <nav class="header-nav">
+                    <ul>
+                        <li><a href="account.html">User Registration/Login</a></li>
+                        <!-- <li><a href="feedback.html">Feedback and Support</a></li> -->
+                        <li><a href="enrollment.html">Enrollment</a></li>
+                    </ul>
+                </div>
+                </nav>
+                <nav class="main-navigation">
+                    <ul>
+                        <li><a href="index.html">Dashboard</a></li>
+                        <li><a href="course.html">Course Catalogue</a></li>
+                        <li><a href="timetable.html">Course Schedule</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+    <div id="notificationBar" style="display: none; background-color: #4CAF50; color: white; text-align: center; padding: 10px; width: 100%; position: fixed; top: 0; left: 0; z-index: 1000;">
+        Your information has been submitted successfully!
+    </div>
+    <section class="contact">
+        <h1>Feedback Form</h1>
+        <p>Please, give us your feedback about our academy and the courses.</p>
+        <p>To give feedback you can fill up the message box and Please, complete the details below and click on the submit button.</p>
+        <h2>Complete your Details:</h2>
+        <form id="FeedbackForm"> 
+            <label for="name">First Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="name">Last Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="Phone">Phone Number (optional):</label>
+            <input type="tel" id="Phone" name="Phone" Option>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <img src="logo.png" alt="Footer Logo" class="footer-logo">
+            <p> Code Craft Academy. </p>
+        </div>
+    </footer>
+    <script src="contact.js"></script>  
+</body>
+</html>
